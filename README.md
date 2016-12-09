@@ -9,3 +9,4 @@ These simple scripts will test the connectivity between multiple hosts across mu
 * Push framework to the hosts: ./push.sh
 * Start server to each host to listen on the ports: ./startservers.sh
 * Run tests on every host: ./runclients.sh
+* Stop the server on all hosts: ./stopservers.sh
