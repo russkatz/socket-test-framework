@@ -6,7 +6,7 @@ These simple scripts will test the connectivity between multiple hosts across mu
 * Edit defaults.cfg and set the hosts and ports you want to test, and ssh user to connect to the servers being tested with.
 * [Optional] Create ssh key on local machine: ssh-keygen -t rsa
 * [Optional] Run ./setkeys.sh to push SSH key to all machines being tested. You will be prompted to enter the SSH user's password once per host
-* Push framework to the hosts: ./push.sh
+* Push framework to the hosts: ./push.sh [If you update defaults.cfg re-run this]
 * Start server to each host to listen on the ports: ./startservers.sh
 * Run tests on every host: ./runclients.sh
 * Stop the server on all hosts: ./stopservers.sh
